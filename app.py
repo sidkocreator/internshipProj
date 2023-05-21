@@ -13,7 +13,7 @@ with header:
 
 with dataset:
   st.header("Using the Breast Cancer Wisconsin Data Set")
-  sample_data = pd.read_csv("/content/drive/MyDrive/AIML PROJECT - BREAST CANCER DETECTION/data.csv")
+  sample_data = pd.read_csv("data.csv")
   st.write(sample_data.head())
 
 with features:
